@@ -1,0 +1,5 @@
+Learning from GraphQL-example
+1. dataloader npm package is to batch request server queries, works nice with graphql, will probably use
+2. context is used in the express-graphql package, it is to authenticate users before query (or really just reference
+their userId)
+3.
