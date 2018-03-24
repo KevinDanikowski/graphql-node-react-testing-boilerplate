@@ -1,15 +1,7 @@
 import Sequelize from 'sequelize'
-/*
-const connection = mysql.createConnection({
-    host: 'wtm-lnx-2.m2', //use wtm-lnx-2.m2
-    user: 'u_kdanikowski', // use u_kdanikowski
-    password: 'Ud0b0K0MGd4k7TM6', //use Ud0b0K0MGd4k7TM6
-    database: 'x_kevinsdb_test', //use x_kevinsdb_test
-    port: 3306 //use 3306
-})
- */
-const Conn = new Sequelize('x_kevinsdb_test', 'u_kdanikowski', 'Ud0b0K0MGd4k7TM6', {
-    host: 'wtm-lnx-2.m2',
+
+const Conn = new Sequelize('DB', 'user', 'password', {
+    host: 'host',
     dialect: 'mysql',
     port: 3306,
     pool: {
